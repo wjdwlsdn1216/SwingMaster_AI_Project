@@ -1,0 +1,6 @@
+*.DS_Store
+*.jpg
+*.mp4
+*.avi
+server1/SM/media/*.*
+server1/SM/output/*.*
