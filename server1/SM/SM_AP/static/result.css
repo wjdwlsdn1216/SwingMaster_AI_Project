@@ -1,0 +1,49 @@
+#header{
+    font-family: 'Spartan', sans-serif;
+    background-color: turquoise;
+}
+
+.navbar-brand{
+    color: snow;
+}
+
+.nav-link{
+    color: snow;
+}
+
+.title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+.container-fluid{
+    display: flex;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05), 0 4px 24px 0 rgba(0, 0, 33, 0.05), 0 0 1px 0 rgba(0, 0, 33, 0.09) ;
+    border: 3px ridge turquoise;
+    justify-content: center;
+}
+
+#video{
+    max-width: 50%;
+}
+
+.row{
+    margin-top: 60px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#button{
+    background-color: turquoise;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(44, 62, 80);
+    font-family: 'Nanum Gothic Coding', monospace;
+}

@@ -1,0 +1,11 @@
+python ./scripts/demo_inference.py --cfg .\configs\fast.cfg --checkpoint .\pretrained_models\fast_res50_256x192.pth --video .\examples\demo\swing2.mp4 --outdir examples/res --detbatch 1 --posebatch 30 --save_video --pose_track
+
+python ./scripts/demo_inference.py --cfg .\configs\dense_coco\resnet50. --checkpoint .\pretrained_models\fast_res50_256x192.pth --video .\examples\demo\swing2.mp4 --outdir examples/res --detbatch 1 --posebatch 30 --save_video --pose_track
+
+
+python .\scripts\demo_inference.py --cfg .\configs\coco\resnet\256x192_res50_lr1e-3_1x-simple.yaml --checkpoint .\pretrained_models\simple_res50_256x192.pth --video .\examples\demo\swing1.mp4 --outdir .\examples/result --save_video --pose_track --detbatch 1 --posebatch 30
+
+
+python .\scripts\demo_inference.py --cfg .\configs\coco\resnet\256x192_res50_lr1e-3_1x.yaml --checkpoint .\pretrained_models\fast_res50_256x192.pth --indir .\examples\demo --outdir .\examples/result --save_img --pose_track --detbatch 1 --posebatch 30 --format open
+
+python .\scripts\demo_inference.py --cfg ./configs/coco/resnet/256x192_res50_lr1e-3_1x.yaml --checkpoint ./pretrained_models/fast_res50_256x192.pth --indir ./examples/demo --outdir ./examples/result --save_img --pose_track --detbatch 1 --posebatch 30 --format open

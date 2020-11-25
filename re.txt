@@ -1,0 +1,8 @@
+Django==3.1.1
+
+  - asgiref [required: ~=3.2.10, installed: 3.2.10]
+
+  - pytz [required: Any, installed: 2020.1]
+
+  - sqlparse [required: >=0.2.2, installed: 0.3.1]
+
